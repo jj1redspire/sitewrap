@@ -9,8 +9,18 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        sw: {
+          amber: "#EA580C",
+          charcoal: "#1C1917",
+          success: "#16A34A",
+          danger: "#DC2626",
+        },
+      },
+      fontFamily: {
+        sans: ["Plus Jakarta Sans", "system-ui", "sans-serif"],
+      },
+      maxWidth: {
+        content: "1100px",
       },
     },
   },
