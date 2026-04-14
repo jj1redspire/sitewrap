@@ -203,7 +203,7 @@ export default function Home() {
               { label: "Average undocumented change order dispute", value: "$500 – $2,000" },
               { label: "Average disputes per remodeler per year", value: "3 – 5" },
               { label: "Annual cost of undocumented changes", value: "$1,500 – $10,000" },
-              { label: "SiteWrap", value: "$39/mo = $468/yr" },
+              { label: "SiteWrap", value: "$49/mo = $588/yr" },
             ].map((row) => (
               <div key={row.label} className="bg-white/15 rounded-xl p-5">
                 <p className="text-orange-100 text-sm mb-1">{row.label}</p>
@@ -256,7 +256,7 @@ export default function Home() {
             {[
               {
                 name: "Project",
-                price: "$39",
+                price: "$49",
                 features: [
                   "Up to 5 active projects",
                   "Unlimited punch items",
