@@ -383,7 +383,7 @@ export default function Home() {
           <div className="flex gap-6 text-stone-400 text-sm">
             <Link href="/privacy" className="hover:text-white transition-colors">Privacy</Link>
             <Link href="/terms" className="hover:text-white transition-colors">Terms</Link>
-            <a href="mailto:joel@helmport.com" className="hover:text-white transition-colors">Contact</a>
+            <a href="mailto:joel@ashwardgroup.com" className="hover:text-white transition-colors">Contact</a>
           </div>
           <p className="text-stone-600 text-sm">© 2026 SiteWrap. All rights reserved.</p>
         </div>
